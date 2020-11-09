@@ -65,7 +65,7 @@ namespace ThreadRace
                 {
                     Monitor.Wait(l);
                 }
-                Console.WriteLine("Ganador: " + (point > 0 ? "Thread 1" : "Thread 2"));
+                Console.WriteLine("And the winner is... " + (point > 0 ? "Thread 1!!!" : "Thread 2!!!"));
                 Console.ReadKey();
             }
         }
